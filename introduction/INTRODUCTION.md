@@ -47,5 +47,6 @@ B = image[100, 100, 0]
 
 # Extract the Region of Interest (ROI)
 ```python
-
+roi = image[500 : 800, 200 : 600]
+cv2.imshow("ROI", roi)
 ```
