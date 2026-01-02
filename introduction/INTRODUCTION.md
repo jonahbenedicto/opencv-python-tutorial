@@ -1,11 +1,28 @@
 # Introduction
 
 # Table of Contents
-1. Reading an Image
-2. Extracting the RGB values of a pixel
-3. Extracting the Region of Interest (ROI)
-4. Resizing the Image
-5. Rotating the Image
-6. Drawing a Rectangle
-7. Displaying a Text
+- [Code](#code)
+- [Import OpenCV Library](#import-opencv-library)
+- [Reading An Image](#reading-an-image)
+
+
+# Code
+- [Reading an Image](./read-image.py)
+- [Extracting the RGB values of a pixel](./extract-rgb.py)
+- [Extracting the Region of Interest (ROI)]()
+- [Resizing the Image]()
+- [Rotating the Image]()
+- [Drawing a Rectangle]()
+- [Displaying a Text]()
+
+# Import OpenCV Library
+```python
+import cv2
+```
+
+# Reading an Image
+
+```python
+image = cv2.imread('image.jpg)
+```
 
