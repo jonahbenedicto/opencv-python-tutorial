@@ -6,7 +6,10 @@
 - [Reading An Image](#reading-an-image)
 - [Extracting the Height and Width of an Image](#extracting-the-height-and-width-of-an-image)
 - [Extracting the RGB Values of a Pixel](#extracting-the-rgb-values-of-a-pixel) 
-
+- [Extracting the Region of Interest](#extracting-the-region-of-interest)
+- [Resizing the Image](#resizing-the-image)
+- [Drawing a Rectangle](#drawing-a-rectangle)
+- [Displaying Text](#displaying-text)
 
 # Code
 - [Reading an Image](./read-image.py)
@@ -55,7 +58,7 @@ image = cv2.imread("image.png")
 B = image[100, 100, 0]
 ```
 
-# Extracting the Region of Interest (ROI)
+# Extracting the Region of Interest
 ```python
 import cv2
 image = cv2.imread("image.png")
